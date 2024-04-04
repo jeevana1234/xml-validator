@@ -5,7 +5,7 @@ Example of a Node.js RESTful API that returns users from an xml file. Have a val
 
 ##### Clone the repository
 Use the following command to clone the repository to your current folder
-`git clone https://github.com/SergioDiez/nodejs-xml-xsd-validation`
+`git clone https://github.com/jeevana1234/xml-validator.git`
 
 ##### Install the required dependencies
 Enter in the nodejs-xml-xsd-validation folder and use the `npm install` command to install the required dependencies.
