@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        center {
+            margin-top: 100px;
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        a:hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+    
+<body>
+    <center>
+        Hello!
+        <div>Choose one of the following options:</div>
+        <div>
+            <a href="/users">Show users</a>
+        </div>
+        <div>
+            <a href="/users/1">Show user with id 1 information as XML</a>
+        </div>
+        <div>
+            <a href="/users/1.json">Show user with id 1 information as JSON</a>
+        </div>
+        <div>
+            <a href="/validate">Validate users.xml with users.xsd</a>
+        </div>
+    </center>
+</body>
+</html>
